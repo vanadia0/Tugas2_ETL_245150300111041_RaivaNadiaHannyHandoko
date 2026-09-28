@@ -1,0 +1,22 @@
+[2026-09-28 09:59:42] 🚀 Starting ETL Pipeline...
+[2026-09-28 09:59:42] 🔄 Starting data extraction...
+[2026-09-28 09:59:42] ✅ CSV loaded: 14472 rows
+[2026-09-28 09:59:51] ✅ Excel loaded: 2 sheets
+[2026-09-28 09:59:51] 📊 Combined dataset: (28944, 8)
+[2026-09-28 09:59:51] 🔧 Starting data transformation...
+[2026-09-28 09:59:51] 🔁 Removed 124 duplicate records
+[2026-09-28 09:59:51] 📝 Column names standardized
+[2026-09-28 09:59:51] 📅 Time features engineered
+[2026-09-28 09:59:52] 🔧 Feature engineering completed
+[2026-09-28 09:59:52] 🔍 Handled 2504 missing values
+[2026-09-28 09:59:52] 📊 Normalized 4 numeric columns
+[2026-09-28 09:59:52] ✅ Transformation completed: (28820, 25)
+[2026-09-28 09:59:52] 📊 Creating data aggregations...
+[2026-09-28 09:59:52] ⏰ Hourly aggregation: 1440 records
+[2026-09-28 09:59:52] 📅 Daily aggregation: 60 records
+[2026-09-28 09:59:52] 🗺️ Location aggregation: 10 records
+[2026-09-28 09:59:52] 💾 Starting data loading...
+[2026-09-28 09:59:55] 📄 CSV exported: data/output/processed_sensor_data_20260928_095952.csv
+[2026-09-28 10:00:25] 📊 Excel exported: data/output/sensor_analysis_20260928_095952.xlsx
+[2026-09-28 10:00:26] 🔗 JSON exported: data/output/processed_sensor_data_20260928_095952.json
+[2026-09-28 10:00:26] ⚠️ Parquet export requires 'pyarrow'. Install with: pip install pyarrow

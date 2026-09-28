@@ -1,7 +1,7 @@
 [
   {
     "sensor_id": "SENSOR_001",
-    "location": "location_b",
+    "location": "Location_B",
     "installation_date": "2024-01-01",
     "calibration_date": "2024-01-15",
     "specifications": {
